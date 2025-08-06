@@ -1,0 +1,22 @@
+{
+    "particles": {
+      "number": { "value": 0 },
+      "shape": {
+        "type": ["image"],
+        "image": [{ "src": "assets/coin.png", "width": 20, "height": 20 }]
+      },
+      "size": { "value": 20 },
+      "opacity": { "value": 0.8 },
+      "move": {
+        "direction": "bottom",
+        "speed": 3,
+        "outModes": { "default": "out" }
+      }
+    },
+    "emitters": [{
+      "position": { "x": 50, "y": 0 },
+      "rate": { "delay": 0.1, "quantity": 1 }
+    }],
+    "detectRetina": true
+  }
+  
